@@ -12,15 +12,29 @@ Input: [1, 2, 3, 4]
 
 Process:
 
-* Do not need to repeat because its absolute value so |1 - 2| is |2 - 1|.
+* Do not need to repeat because  absolute 1 - 2 is absolute 2 - 1.
 
-|1 - 2| |2 - 3| |3 - 4|
-|1 - 3| |2 - 4|
-|1 - 4|
+* Example steps:
+
+absolute of 1 - 2
+
+absolute of 1 - 3
+
+absolute of 1 - 4
+
+* Then
+
+absolute of 2 - 3
+
+absolute of 2 - 4
+
+* Last number
+
+absolute of 3 - 4
 
 * Looks like two for loops. Will need at least an iteration index
 * Need to return 1 before length
-* list->set->list so will need to return 0 because [1, 1, 1]->(1)->[1] so |1-1| = 0
+* list->set->list so will need to return 0 because [1, 1, 1]->(1)->[1] so absolute of 1-1 = 0
 
 ### Steps
 
